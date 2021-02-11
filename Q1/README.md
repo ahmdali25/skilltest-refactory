@@ -9,16 +9,19 @@ npm install
 ```
 npm run serve
 ```
+***Simple app to print a payment receipt***
 
-### Compiles and minifies for production
-```
-npm run build
-```
+***Simple app have there inputs:***
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. Input resto name
+2. Input date of print
+3. Input cashier name
+4. Input item and price, for this can be multiple times input until the user said exit.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+***Constraint :***
+
+- When text is more than 30 characters, the rest of character move over to the new line.
+- Output at the section of price list connected with dot character (...) between the item name until the item price.
+- Item name always aligned to left, Item price always aligned to right with Rp as prefix.
+
+
